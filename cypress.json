@@ -1,0 +1,8 @@
+{
+    "screenshotsFolder": "cypress/downloads",
+    "integrationFolder": "cypress/integration/specs",
+    "env": {
+        "xlPath": "cypress/fixtures/testData.xlsx"
+    },
+    "projectId": "e176qk"
+}

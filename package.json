@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-ci": "npx cypress run --record --key a99f1d01-789e-4d32-82c5-196b209c0cd6 --spec 'cypress/integration/specs/*.ts' --browser chrome",
+    "test": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.11.1",
+    "@types/node": "^17.0.21",
+    "cypress": "^9.5.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "ts-loader": "^9.2.8",
+    "xlsx": "^0.18.4"
+  },
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "locatorType": {
+        "date": "input[type=date]",
+        "text": "input[type=text]",
+        "checkBox": "[role='checkbox']",
+        "textarea": "textarea",
+        "dropDown": "div[role='listbox']",
+        "dropDownOptions": "div[role='option']",
+        "radioButton": "[role='radiogroup']",
+        "time": "input[type=text][aria-label='Hour']"
+    },
+    "ui_locators": {
+        "formFields": ".Qr7Oae",
+        "buttons": "[role='button']"
+    }
+}
